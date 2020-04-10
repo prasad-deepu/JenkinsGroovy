@@ -8,6 +8,7 @@ node {
 	sh 'dotnet --version'
 	sh 'dotnet build ConsoleApp1'
 	echo 'Buidling new feature'
+	releasenotes()
     }
     stage('Test') {
         echo 'Testing....'
