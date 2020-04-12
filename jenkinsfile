@@ -24,6 +24,7 @@ node {
 	}
     }
     stage('Test') {
+    sh 'input 'Continue to next stage?'
         echo 'Testing....'
     }
     stage('Deploy') {
